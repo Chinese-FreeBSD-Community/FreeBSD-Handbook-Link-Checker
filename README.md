@@ -350,26 +350,66 @@ port deleted on 2021-12-31
 
 ### Errors in di-7-zhang-zhuo-mian-ying-yong-cheng-xu/7.3.-sheng-chan-li-gong-ju.md
 * [https://www.freebsd.org/ports/editors/](https://www.freebsd.org/ports/editors/): Failed: Network error (status code: 404)
+
+替换为 https://cgit.freebsd.org/ports/tree/editors
+
 * [https://www.freebsd.org/ports/graphics/](https://www.freebsd.org/ports/graphics/): Failed: Network error (status code: 404)
+
+替换为 https://cgit.freebsd.org/ports/tree/graphics
 
 ### Errors in fu-lu-b.-shu-mu/b.2.-yong-hu-zhi-nan.md
 * [http://www.ed.ac.uk/information-services/help-consultancy/is-skills/catalogue/program-op-sys-catalogue/unix1](http://www.ed.ac.uk/information-services/help-consultancy/is-skills/catalogue/program-op-sys-catalogue/unix1): Failed: Network error (status code: 404)
+
+找不到，删除。
+
 * [http://www.cs.duke.edu/csl/docs/unix_course/](http://www.cs.duke.edu/csl/docs/unix_course/): Failed: Network error (status code: 404)
+
+切换为 https://physics.osu.edu/courses/cse-4251
 
 ### Errors in di-29-zhang-ppp/29.4.-shi-yong-yi-tai-wang-ppppppoe.md
 * [http://renaud.waldura.com/doc/freebsd/pppoe/](http://renaud.waldura.com/doc/freebsd/pppoe/): Failed: Network error (status code: ERR)
+
+网站错误，删除
+
 * [https://cgit.freebsd.org/ports/tree/net/rr-pppoe/pkg-descr](https://cgit.freebsd.org/ports/tree/net/rr-pppoe/pkg-descr): Failed: Network error (status code: 404)
+
+应该是 net/rp-pppoe/，不存在 rr-pppoe
 
 ### Errors in fu-lu-a.-huo-qu-freebsd/a.1.-jing-xiang-zhan.md
 * [http://ftp5.tw.freebsd.org/pub/FreeBSD](http://ftp5.tw.freebsd.org/pub/FreeBSD): Timeout (status code: TIMEOUT)
+
+打不开删除。
+
 * [http://ftp.lv.freebsd.org/pub/Freebsd](http://ftp.lv.freebsd.org/pub/Freebsd): Failed: Network error (status code: 404)
+
+应该是 http://ftp.lv.freebsd.org/freebsd/
+
 * [http://ftp6.jp.freebsd.org/pub/FreeBSD](http://ftp6.jp.freebsd.org/pub/FreeBSD): Failed: Network error (status code: ERR)
+
+正常
+
+
 * [http://ftp.si.freebsd.org/pub/FreeBSD](http://ftp.si.freebsd.org/pub/FreeBSD): Timeout (status code: TIMEOUT)
+
+打不开删除。
+
 * [http://ftp5.freebsd.org/pub/FreeBSD](http://ftp5.freebsd.org/pub/FreeBSD): Failed: Network error (status code: 404)
+
+应该是 https://ftp5.freebsd.org/
+
 * [https://ftp.za.freebsd.org/pub/FreeBSD](https://ftp.za.freebsd.org/pub/FreeBSD): Failed: Network error (status code: 404)
+
+应该是 https://ftp.za.freebsd.org/
+
 * [http://ftp2.br.freebsd.org/FreeBSD](http://ftp2.br.freebsd.org/FreeBSD): Failed: Network error (status code: 503)
+
+不可用，删除。
 
 ### Errors in di-16-zhang-jail/16.4.-wei-tiao-he-guan-li.md
 * [https://docs.freebsd.org/en/books/handbook/Jail/#Jail-ezjail](https://docs.freebsd.org/en/books/handbook/Jail/#Jail-ezjail): Failed: Network error (status code: 404)
 
+应该是 https://docs.freebsd.org/en/books/handbook/jails/#jails-ezjail
+
 [Full Github Actions output](https://github.com/FreeBSD-Ask/Handbook/actions/runs/3402432215?check_suite_focus=true)
+
+无关。
