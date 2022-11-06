@@ -130,8 +130,12 @@ http://www.apsfilter.org/
 * [https://ark.intel.com/content/www/us/en/ark/search/featurefilter.html?productType=873&0](https://ark.intel.com/content/www/us/en/ark/search/featurefilter.html?productType=873&0): Timeout (status code: TIMEOUT)
 * [https://ark.intel.com/content/www/us/en/ark/search/featurefilter.html?productType=873&0_ExtendedPageTables=True](https://ark.intel.com/content/www/us/en/ark/search/featurefilter.html?productType=873&0_ExtendedPageTables=True): Timeout (status code: TIMEOUT)
 
+找不到了，删除
+
 ### Errors in di-33-zhang-gao-ji-wang-luo/33.8.-shi-yong-pxe-jin-hang-wu-pan-cao-zuo.md
 * [https://cgit.freebsd.org/ports/tree/net/isc-dhcp43-server/pkg-descr](https://cgit.freebsd.org/ports/tree/net/isc-dhcp43-server/pkg-descr): Failed: Network error (status code: 404)
+
+升级为 /net/isc-dhcp44-server/
 
 ### Errors in README.md
 * [https://handbook.bsdcn.org/](https://handbook.bsdcn.org/): Failed: Network error (status code: 503)
@@ -140,92 +144,209 @@ http://www.apsfilter.org/
 * [https://bbs.bsdcn.org/](https://bbs.bsdcn.org/): Failed: Network error (status code: 503)
 * [https://docs.freebsd.org/en/books/porters-handbook/porting-why/~~](https://docs.freebsd.org/en/books/porters-handbook/porting-why/~~): Failed: Network error (status code: 404)
 
+不管，应该添加例外。（注意去掉 “~~”）
+
 ### Errors in di-13-zhang-pei-zhi-yu-you-hua/13.13.-dian-yuan-he-zi-yuan-guan-li.md
 * [https://uefi.org/specs/ACPI/6.4/Apx_B_Video_Extensions/Apx_B_Video_Extensions.html](https://uefi.org/specs/ACPI/6.4/Apx_B_Video_Extensions/Apx_B_Video_Extensions.html): Failed: Network error (status code: 404)
+
+被替换为 https://uefi.org/htmlspecs/ACPI_Spec_6_4_html/Apx_B_Video_Extensions/Apx_B_Video_Extensions.html
+
 * [http://acpi.info/spec.htm](http://acpi.info/spec.htm): Failed: Network error (status code: ERR)
+
+替换为 The ACPI 6.4 Specification ([http://acpi.info/spec.htm](https://uefi.org/sites/default/files/resources/ACPI_Spec_6_4_Jan22.pdf))
 
 ### Errors in di-15-zhang-an-quan/15.11.freebsd-an-quan-gong-gao.md
 * [https://svnweb.freebsd.org/base?view=revision&revision=NNNNNN](https://svnweb.freebsd.org/base?view=revision&revision=NNNNNN): Failed: Network error (status code: 404)
 
+无视之。
+
 ### Errors in di-13-zhang-pei-zhi-yu-you-hua/13.2.-qi-dong-fu-wu.md
 * [https://cgit.freebsd.org/ports/tree/www/apache22/pkg-descr](https://cgit.freebsd.org/ports/tree/www/apache22/pkg-descr): Failed: Network error (status code: 404)
+
+替换为 www/apache24
 
 ### Errors in di-19-zhang-cun-chu/19.13.-jia-mi-ci-pan-fen-qu.md
 * [http://world.std.com/~reinhold/diceware.htm](http://world.std.com/~reinhold/diceware.htm): Failed: Network error (status code: 404)
 
+替换为 https://std.com/~reinhold/diceware.html
+
 ### Errors in di-17-zhang-qiang-zhi-fang-wen-kong-zhi/17.7.mac-jail-zhong-de-nagios.md
 * [https://cgit.freebsd.org/ports/tree/www/apache22/pkg-descr](https://cgit.freebsd.org/ports/tree/www/apache22/pkg-descr): Cached: Error (cached) (status code: 404)
 
+替换为 www/apache24
+
 ### Errors in di-23-zhang-xu-ni-hua/23.7.-shi-yong-freebsd-shang-de-xen-xu-ni-ji.md
 * [https://cgit.freebsd.org/ports/tree/emulators/xen-kernel411/pkg-descr](https://cgit.freebsd.org/ports/tree/emulators/xen-kernel411/pkg-descr): Failed: Network error (status code: 404)
+
+替换为 emulators/xen-kernel/
+
 * [https://cgit.freebsd.org/ports/tree/sysutils/xen-tools47/pkg-descr](https://cgit.freebsd.org/ports/tree/sysutils/xen-tools47/pkg-descr): Failed: Network error (status code: 404)
+
+替换为 sysutils/xen-tools/
+
 * [https://cgit.freebsd.org/ports/tree/emulators/xen-kernel47/pkg-descr](https://cgit.freebsd.org/ports/tree/emulators/xen-kernel47/pkg-descr): Failed: Network error (status code: 404)
+
+替换为 emulators/xen-kernel/
+
 * [https://cgit.freebsd.org/ports/tree/sysutils/xen-tools411/pkg-descr](https://cgit.freebsd.org/ports/tree/sysutils/xen-tools411/pkg-descr): Failed: Network error (status code: 404)
+
+替换为 sysutils/xen-tools/
 
 ### Errors in di-33-zhang-gao-ji-wang-luo/33.6.-qiao-jie.md
 * [https://cgit.freebsd.org/ports/tree/net-mgmt/bsnmptools/pkg-descr](https://cgit.freebsd.org/ports/tree/net-mgmt/bsnmptools/pkg-descr): Failed: Network error (status code: 404)
 
+port deleted on 2015-10-16
+
 ### Errors in di-33-zhang-gao-ji-wang-luo/33.9.ipv6.md
 * [https://cgit.freebsd.org/ports/tree/net/freenet6/pkg-descr](https://cgit.freebsd.org/ports/tree/net/freenet6/pkg-descr): Failed: Network error (status code: 404)
 
+port deleted on 2021-04-12
+
 ### Errors in di-4-zhang-an-zhuang-ying-yong-cheng-xu-ruan-jian-bao-he-ports/4.4.-shi-yong-pkg-jin-hang-er-jin-zhi-bao-guan-li.md
 * [https://cgit.freebsd.org/ports/tree/lang/php53/pkg-descr](https://cgit.freebsd.org/ports/tree/lang/php53/pkg-descr): Failed: Network error (status code: 404)
+
+升级到 lang/php82
+
 * [https://cgit.freebsd.org/ports/tree/lang/ruby18/pkg-descr](https://cgit.freebsd.org/ports/tree/lang/ruby18/pkg-descr): Failed: Network error (status code: 404)
+
+移动至 lang/ruby32/
+
 * [https://cgit.freebsd.org/ports/tree/lang/php5/pkg-descr](https://cgit.freebsd.org/ports/tree/lang/php5/pkg-descr): Failed: Network error (status code: 404)
+
+升级到 lang/php82
+
 * [https://cgit.freebsd.org/ports/tree/graphics/libglut/pkg-descr](https://cgit.freebsd.org/ports/tree/graphics/libglut/pkg-descr): Failed: Network error (status code: 404)
+
+移动至 graphics/freeglut/
+
 * [https://cgit.freebsd.org/ports/tree/lang/ruby19/pkg-descr](https://cgit.freebsd.org/ports/tree/lang/ruby19/pkg-descr): Failed: Network error (status code: 404)
+
+移动至 lang/ruby32/
 
 ### Errors in di-8-zhang-duo-mei-ti/8.2.-she-zhi-sheng-ka.md
 * [https://cgit.freebsd.org/ports/tree/audio/workman/pkg-descr](https://cgit.freebsd.org/ports/tree/audio/workman/pkg-descr): Failed: Network error (status code: 404)
 
+port deleted on 2020-06-05
+
 ### Errors in di-10-zhang-da-yin/10.3.-chang-jian-de-ye-mian-miao-shu-yu-yan.md
 * [http://www.undocprint.org/formats/page](http://www.undocprint.org/formats/page): Failed: Network error (status code: 404)
+
+找不到 删除。
+
 * [http://www.undocprint.org/formats/page_description_languages](http://www.undocprint.org/formats/page_description_languages): Failed: Network error (status code: 404)
+
+找不到 删除。
 
 ### Errors in di-5-zhang-xwindow-xi-tong/5.4.-xorg-pei-zhi.md
 * [https://cgit.freebsd.org/ports/tree/xorg-server/pkg-descr](https://cgit.freebsd.org/ports/tree/xorg-server/pkg-descr): Failed: Network error (status code: 404)
 
+应该是 x11-servers/xorg-server
+
 ### Errors in di-26-zhang-dtrace/26.2.-shi-xian-shang-de-cha-yi.md
 * [http://opensource.org/licenses/CDDL-1.0](http://opensource.org/licenses/CDDL-1.0): Failed: Network error (status code: 503)
+
+正常
 
 ### Errors in di-16-zhang-jail/16.5.-geng-xin-duo-ge-jail.md
 * [https://docs.freebsd.org/en/books/handbook/Jail/#Jail-ezjail](https://docs.freebsd.org/en/books/handbook/Jail/#Jail-ezjail): Failed: Network error (status code: 404)
 
+应该是 https://docs.freebsd.org/en/books/handbook/jails/#jails-ezjail
+
 ### Errors in di-24-zhang-ben-di-hua-i18nl10n-de-shi-yong-he-she-zhi/24.2.-shi-yong-ben-di-hua.md
 * [https://cgit.freebsd.org/ports/tree/vietnamese/xvnkb/pkg-descr](https://cgit.freebsd.org/ports/tree/vietnamese/xvnkb/pkg-descr): Failed: Network error (status code: 404)
+
+port deleted on 2014-09-01
+
 * [https://cgit.freebsd.org/ports/tree/japanese/scim-prime/pkg-descr](https://cgit.freebsd.org/ports/tree/japanese/scim-prime/pkg-descr): Failed: Network error (status code: 404)
+
+port deleted on 2014-09-06
+
 * [https://cgit.freebsd.org/ports/tree/chinese/cce/pkg-descr](https://cgit.freebsd.org/ports/tree/chinese/cce/pkg-descr): Failed: Network error (status code: 404)
+
+port deleted on 2015-11-28
+
 * [https://cgit.freebsd.org/ports/tree/chinese/zhcon/pkg-descr](https://cgit.freebsd.org/ports/tree/chinese/zhcon/pkg-descr): Failed: Network error (status code: 404)
+
+port deleted on 2014-09-01
+
 * [https://cgit.freebsd.org/ports/tree/korean/imhangul/pkg-descr](https://cgit.freebsd.org/ports/tree/korean/imhangul/pkg-descr): Failed: Network error (status code: 404)
+
+移动至 korean/imhangul-gtk3
+
 * [https://cgit.freebsd.org/ports/tree/japanese/kon2-14dot/pkg-descr](https://cgit.freebsd.org/ports/tree/japanese/kon2-14dot/pkg-descr): Failed: Network error (status code: 404)
+
+只有 Makefile
+
 * [https://cgit.freebsd.org/ports/tree/japanese/im-ja/pkg-descr](https://cgit.freebsd.org/ports/tree/japanese/im-ja/pkg-descr): Failed: Network error (status code: 404)
+
+port deleted on 2022-07-27
+
 * [https://cgit.freebsd.org/ports/tree/chinese/big5con/pkg-descr](https://cgit.freebsd.org/ports/tree/chinese/big5con/pkg-descr): Failed: Network error (status code: 404)
+
+port deleted on 2014-07-24
+
 * [https://cgit.freebsd.org/ports/tree/japanese/ibus-mozc/pkg-descr](https://cgit.freebsd.org/ports/tree/japanese/ibus-mozc/pkg-descr): Failed: Network error (status code: 404)
+
+只有 Makefile
+
 * [https://cgit.freebsd.org/ports/tree/chinese/oxim/pkg-descr](https://cgit.freebsd.org/ports/tree/chinese/oxim/pkg-descr): Failed: Network error (status code: 404)
+
+port deleted on 2015-11-28
+
 * [https://cgit.freebsd.org/ports/tree/chinese/kon2/pkg-descr](https://cgit.freebsd.org/ports/tree/chinese/kon2/pkg-descr): Failed: Network error (status code: 404)
+
+port deleted on 2015-11-28
 
 ### Errors in di-16-zhang-jail/16.6.-shi-yong-ezjail-guan-li-jail.md
 * [https://cgit.freebsd.org/ports/tree/dns/bind99/pkg-descr](https://cgit.freebsd.org/ports/tree/dns/bind99/pkg-descr): Failed: Network error (status code: 404)
+
+移动至 /dns/bind918
+
 * [https://docs.freebsd.org/en/books/handbook/jail/#jail-ezjail-initialsetup](https://docs.freebsd.org/en/books/handbook/jail/#jail-ezjail-initialsetup): Failed: Network error (status code: 404)
+
+移动至 https://docs.freebsd.org/en/books/handbook/jails/#jails-ezjail
 
 ### Errors in di-31-zhang-wang-luo-fu-wu-qi/31.8.apache-http-fu-wu-qi.md
 * [http://xn--localhost,-eg2y939nvou/](http://xn--localhost,-eg2y939nvou/): Failed: Network error (status code: ERR)
+
+不知道在哪？
+
 * [https://cgit.freebsd.org/ports/tree/www/py-django/pkg-descr](https://cgit.freebsd.org/ports/tree/www/py-django/pkg-descr): Failed: Network error (status code: 404)
+
+port deleted on 2022-06-30
+
 * [https://cgit.freebsd.org/ports/tree/www/rubygem-rails/pkg-descr](https://cgit.freebsd.org/ports/tree/www/rubygem-rails/pkg-descr): Failed: Network error (status code: 404)
+
+port deleted on 2017-01-07
 
 ### Errors in di-30-zhang-dian-zi-you-jian/30.9.smtp-ren-zheng.md
 * [https://cgit.freebsd.org/ports/tree/cyrus-sasl2/pkg-descr](https://cgit.freebsd.org/ports/tree/cyrus-sasl2/pkg-descr): Failed: Network error (status code: 404)
 
+应该是 security/cyrus-sasl2
+
 ### Errors in di-15-zhang-an-quan/15.5.kerberos.md
 * [https://cgit.freebsd.org/ports/tree/www/mod_auth_kerb/pkg-descr](https://cgit.freebsd.org/ports/tree/www/mod_auth_kerb/pkg-descr): Failed: Network error (status code: 404)
+
+升级到 www/mod_auth_kerb2
+
 * [https://cgit.freebsd.org/ports/tree/security/krb5/pkg-descr](https://cgit.freebsd.org/ports/tree/security/krb5/pkg-descr): Failed: Network error (status code: 404)
+
+只有 Makefile
 
 ### Errors in di-29-zhang-ppp/29.2.-pei-zhi-ppp.md
 * [http://mgetty.greenie.net/doc/mgetty_toc.html](http://mgetty.greenie.net/doc/mgetty_toc.html): Failed: Network error (status code: 404)
+
+转移到 http://mgetty.greenie.net/doc/mgetty.html
+
+
 * [http://mgetty.greenie.net/doc/mgetty](http://mgetty.greenie.net/doc/mgetty): Failed: Network error (status code: 404)
+
+转移到 http://mgetty.greenie.net/doc/mgetty.html
 
 ### Errors in di-33-zhang-gao-ji-wang-luo/33.2.-wang-guan-he-lu-you.md
 * [https://cgit.freebsd.org/ports/tree/net/zebra/pkg-descr](https://cgit.freebsd.org/ports/tree/net/zebra/pkg-descr): Failed: Network error (status code: 404)
+
+port deleted on 2021-12-31
 
 ### Errors in di-7-zhang-zhuo-mian-ying-yong-cheng-xu/7.3.-sheng-chan-li-gong-ju.md
 * [https://www.freebsd.org/ports/editors/](https://www.freebsd.org/ports/editors/): Failed: Network error (status code: 404)
