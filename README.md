@@ -223,6 +223,8 @@ port deleted on 2021-04-12
 
 移动至 lang/ruby32/
 
+以上为示例，不应该改变。
+
 ### Errors in di-8-zhang-duo-mei-ti/8.2.-she-zhi-sheng-ka.md
 * [https://cgit.freebsd.org/ports/tree/audio/workman/pkg-descr](https://cgit.freebsd.org/ports/tree/audio/workman/pkg-descr): Failed: Network error (status code: 404)
 
