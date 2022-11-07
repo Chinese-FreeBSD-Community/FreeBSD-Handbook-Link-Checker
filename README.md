@@ -124,7 +124,7 @@ http://www.apsfilter.org/
 ### Errors in di-31-zhang-wang-luo-fu-wu-qi/31.6.-dong-tai-zhu-ji-she-zhi-xie-yi-dhcp.md
 * [https://cgit.freebsd.org/ports/tree/net/isc-dhcp43-server/pkg-descr](https://cgit.freebsd.org/ports/tree/net/isc-dhcp43-server/pkg-descr): Failed: Network error (status code: 404)
 
-更新为 net/isc-dhcp43-server
+更新为 net/isc-dhcp44-server
 
 ### Errors in di-23-zhang-xu-ni-hua/23.6.-shi-yong-freebsd-shang-de-bhyve-xu-ni-ji.md
 * [https://ark.intel.com/content/www/us/en/ark/search/featurefilter.html?productType=873&0](https://ark.intel.com/content/www/us/en/ark/search/featurefilter.html?productType=873&0): Timeout (status code: TIMEOUT)
